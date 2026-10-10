@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="foilGradAsc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="25%" stop-color="#fed7aa"/>
+      <stop offset="50%" stop-color="#fffbeb"/>
+      <stop offset="75%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fcd34d"/>
+    </linearGradient>
+    <pattern id="gridPatternAsc" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d97706" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Strip Background -->
+  <rect x="15" y="15" width="570" height="330" rx="24" fill="url(#foilGradAsc)" stroke="#b45309" stroke-width="3"/>
+  <rect x="15" y="15" width="570" height="330" rx="24" fill="url(#gridPatternAsc)"/>
+
+  <!-- Blister Pill Pockets -->
+  <g fill="#d97706" opacity="0.25">
+    <circle cx="80" cy="90" r="38" stroke="#92400e" stroke-width="3"/>
+    <circle cx="200" cy="90" r="38" stroke="#92400e" stroke-width="3"/>
+    <circle cx="80" cy="240" r="38" stroke="#92400e" stroke-width="3"/>
+    <circle cx="200" cy="240" r="38" stroke="#92400e" stroke-width="3"/>
+  </g>
+
+  <!-- Perforation line -->
+  <line x1="270" y1="20" x2="270" y2="340" stroke="#b45309" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Orange/Citrus Accent Stripe -->
+  <rect x="290" y="35" width="280" height="6" fill="#ea580c" rx="3"/>
+
+  <!-- Medicine Branding & Data -->
+  <text x="290" y="75" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#78350f">ASCORBIC ACID</text>
+  <text x="290" y="105" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="16" fill="#c2410c">100 mg (Vitamin C)</text>
+  <text x="290" y="130" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#92400e">Chewable / Oral Vitamin Supplement • IP</text>
+
+  <!-- Indication Box -->
+  <rect x="290" y="150" width="275" height="48" rx="8" fill="#fff" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="300" y="170" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="10" fill="#c2410c">SYNERGISTIC IRON ABSORPTION BOOSTER</text>
+  <text x="300" y="186" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="9" fill="#78350f">Aids non-heme iron enteral reduction. Take alongside iron supplements.</text>
+
+  <!-- Batch & Expiry Info -->
+  <g font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#78350f">
+    <text x="290" y="225">B.No.    : ASC100B</text>
+    <text x="290" y="248">MFG.DATE : 01/2025</text>
+    <text x="290" y="271">EXP.DATE : 01/2028</text>
+    <text x="290" y="294">M.R.P.   : ₹ 28.00 / 10 TABS</text>
+  </g>
+
+  <!-- Manufacturer & Barcode -->
+  <text x="290" y="325" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400e">Mfg: Pascual Laboratories</text>
+
+  <!-- 2D Barcode Simulation -->
+  <g transform="translate(515, 220)">
+    <rect width="50" height="50" fill="white" stroke="#000" stroke-width="1"/>
+    <rect x="5" y="5" width="16" height="16" fill="black"/>
+    <rect x="29" y="5" width="16" height="16" fill="black"/>
+    <rect x="5" y="29" width="16" height="16" fill="black"/>
+    <rect x="25" y="25" width="10" height="10" fill="black"/>
+  </g>
+</svg>

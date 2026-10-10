@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="foilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="25%" stop-color="#cbd5e1"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="75%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#94a3b8" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Strip Background -->
+  <rect x="15" y="15" width="570" height="330" rx="24" fill="url(#foilGrad)" stroke="#64748b" stroke-width="3"/>
+  <rect x="15" y="15" width="570" height="330" rx="24" fill="url(#gridPattern)"/>
+
+  <!-- Blister Pill Pockets -->
+  <g fill="#94a3b8" opacity="0.35">
+    <circle cx="80" cy="90" r="38" stroke="#475569" stroke-width="3"/>
+    <circle cx="200" cy="90" r="38" stroke="#475569" stroke-width="3"/>
+    <circle cx="80" cy="240" r="38" stroke="#475569" stroke-width="3"/>
+    <circle cx="200" cy="240" r="38" stroke="#475569" stroke-width="3"/>
+  </g>
+
+  <!-- Perforation line -->
+  <line x1="270" y1="20" x2="270" y2="340" stroke="#64748b" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Red Rx Warning Stripe -->
+  <rect x="290" y="35" width="280" height="6" fill="#dc2626" rx="3"/>
+
+  <!-- Medicine Branding & Data -->
+  <text x="290" y="75" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" fill="#0f172a">FERROUS SULFATE</text>
+  <text x="290" y="105" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="16" fill="#15803d">325 mg (65 mg Elemental Iron)</text>
+  <text x="290" y="130" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#475569">Formula: FeSO4 • Sugar-Coated Tablets</text>
+
+  <!-- Schedule & Regulatory Box -->
+  <rect x="290" y="150" width="275" height="48" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="300" y="170" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="10" fill="#dc2626">SCHEDULE H PRESCRIPTION DRUG - CAUTION</text>
+  <text x="300" y="186" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="9" fill="#334155">Not to be sold by retail without the prescription of a Registered Medical Practitioner.</text>
+
+  <!-- Batch & Expiry Info -->
+  <g font-family="Courier, monospace" font-size="12" font-weight="bold" fill="#0f172a">
+    <text x="290" y="225">B.No.    : FES325A</text>
+    <text x="290" y="248">MFG.DATE : 11/2024</text>
+    <text x="290" y="271">EXP.DATE : 11/2027</text>
+    <text x="290" y="294">M.R.P.   : ₹ 45.00 / 10 TABS</text>
+  </g>
+
+  <!-- Manufacturer & Barcode -->
+  <text x="290" y="325" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#475569">Mfg: Pascual Laboratories / United Pharma</text>
+
+  <!-- 2D Barcode Simulation -->
+  <g transform="translate(515, 220)">
+    <rect width="50" height="50" fill="white" stroke="#000" stroke-width="1"/>
+    <rect x="5" y="5" width="16" height="16" fill="black"/>
+    <rect x="29" y="5" width="16" height="16" fill="black"/>
+    <rect x="5" y="29" width="16" height="16" fill="black"/>
+    <rect x="25" y="25" width="10" height="10" fill="black"/>
+  </g>
+</svg>
